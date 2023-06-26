@@ -1,0 +1,139 @@
+  @import url('https://fonts.googleapis.com/css2?family=Foldit&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,500&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0 ;
+    font-family: 'Foldit', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.details{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.image1{
+    height: 100%;
+    width: 35%;
+    margin: 1.3rem;
+}
+
+.frontimg{
+    height: 100%;
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 0.7rem;
+}
+
+.others{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+    margin-left: 3rem;
+
+    
+}
+.name{
+    font-size: 2.6rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    
+}
+
+.brand{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.price{
+    font-size: 1.2rem;
+    font-weight: 800;
+    color:#009688;
+    
+}
+
+.desc{
+    color: gray;
+}
+
+.previmg{
+    height: 7rem;
+    width: 35rem;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    cursor:crosshair;
+    border-radius: 0.7rem;
+}
+
+.pdiv{
+    height: 7rem;
+    width: 30%;
+    margin:2px;
+}
+.prims{
+    height: 8rem;
+    width: 100%;
+}
+
+#button{
+    background-color: #009688;
+    color: aliceblue;
+    margin-top: 3rem;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 1rem;
+
+}
+
+#one:hover{
+    border: 3px solid #009688;
+    border-radius: 0.7rem;
+}
+#two:hover{
+    border: 3px solid #009688;
+    border-radius: 0.7rem;
+}
+#three:hover{
+    border: 3px solid #009688;
+    border-radius: 0.7rem;
+}
+#four:hover{
+    border: 3px solid #009688;
+    border-radius: 0.7rem;
+}
+#five:hover{
+    border: 3px solid #009688;
+    border-radius: 0.7rem;
+}
+
+.frontimg:hover{
+    border-radius: 0.7rem;
+}
+
+@media screen and (max-width:990px){
+    .details{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .frontimg{
+        width: 180%;
+        transform: translate(-7rem,0rem);
+
+    }
+}
+
+@media screen and (max-width:480px){
+    .details{
+        transform: translate(6rem,0rem);
+    }
+}
